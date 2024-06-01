@@ -15,7 +15,7 @@
   language: golang
   pass_filenames: True
   additional_dependencies:
-    ["mvdan.cc/gofumpt@v0.5.0", "github.com/segmentio/golines@v0.12.0"]
+    ["mvdan.cc/gofumpt@v0.6.0", "github.com/segmentio/golines@v0.12.2"]
 - id: gci
   name: gci
   description: Control golang package import order and make it always deterministic.
@@ -23,7 +23,7 @@
   types: [go]
   language: golang
   pass_filenames: True
-  additional_dependencies: ["github.com/daixiang0/gci@v0.13.0"]
+  additional_dependencies: ["github.com/daixiang0/gci@v0.13.4"]
 - id: go-mod-tidy
   name: Run go mod tidy
   entry: ./go-mod-tidy
