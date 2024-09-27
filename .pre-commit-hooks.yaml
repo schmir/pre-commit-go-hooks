@@ -38,4 +38,4 @@
   types: [shell]
   language: golang
   pass_filenames: True
-  additional_dependencies: ["mvdan.cc/sh/v3/cmd/shfmt@v3.8.0"]
+  additional_dependencies: ["mvdan.cc/sh/v3/cmd/shfmt@v3.9.0"]
